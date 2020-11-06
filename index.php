@@ -5,7 +5,7 @@
 </head>
 <body>
     <h3>Work2 / Work3 06/11/2020</h3>
-    <a href="wwwww/Index2.html">work2</a><br>
-    <a href="wwwww/Index3.html">work3</a>
+    <a href="wwwww/index2.html">work2</a><br>
+    <a href="wwwww/index3.html">work3</a>
 </body>
 </html>
