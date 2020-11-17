@@ -8,6 +8,6 @@
     <a href="wwwww/index2.html">work2</a><br>
     <a href="wwwww/index3.html">work3</a><br>
     <a href="wwwww/show2.php">work4</a><br>
-    <a href="wwwww/form.html.php">Test</a><br>
+    <a href="wwwww/form.html">Test</a><br>
 </body>
 </html>
