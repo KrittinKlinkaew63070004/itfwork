@@ -14,7 +14,7 @@
                 <form action = "insert.php" method = "post" id="CommentForm" >
                     NAME:<br>
                     <input type="text" name = "name" id="idName" placeholder="Enter Name"> <br>
-                    COMMENT:<br>
+                    COMMENTS:<br>
                     <textarea rows="10" cols="20" name = "comment" id="idComment" placeholder="Enter Comment"></textarea><br>  
                     LINK:<br>
                     <input type="text" name = "link" id="idLink" placeholder="Enter Link"> <br><br>
