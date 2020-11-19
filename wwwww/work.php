@@ -53,6 +53,7 @@
                             <th width="100"> <div align="center">Name</div></th>
                             <th width="400"> <div align="center">Comment </div></th>
                             <th width="200"> <div align="center">Link </div></th>
+                            <th width="200"> <div align="center">ID </div></th>
                         </tr>
                     <?php
                     while($Result = mysqli_fetch_array($res))
@@ -62,6 +63,7 @@
                             <td><?php echo $Result['name'];?></div></td>
                             <td><?php echo $Result['Commemt'];?></td>
                             <td><?php echo $Result['link'];?></td>
+                            <td><?php echo $Result['ID'];?></td>
                         </tr>
                     <?php
                     }
