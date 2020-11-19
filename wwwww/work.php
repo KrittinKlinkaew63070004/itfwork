@@ -30,13 +30,15 @@
                 
                 </div>
                 <div class="col-sm-3" >
-                    <form action = "updatename.php" method = "post" id="ncForm" >
-                        NAME CHANGE:<br>
-                        <input type="text" name = "namechange" id="idName" placeholder="Enter Name Change"> <br>
-                        ROW THAT YOU WANT TO CHANGE:<br>
-                        <input type="text" name = "delnc" id="idnc" placeholder="Enter ID"> <br>
-                        <input type="submit" id="commentBtnnc">
-                    </form> 
+                    <div class="card">
+                        <form action = "updatename.php" method = "post" id="ncForm" >
+                            NAME CHANGE:<br>
+                            <input type="text" name = "namechange" id="idName" placeholder="Enter Name Change"> <br>
+                            ROW THAT YOU WANT TO CHANGE:<br>
+                            <input type="text" name = "delnc" id="idnc" placeholder="Enter ID"> <br>
+                            <input type="submit" id="commentBtnnc">
+                        </form>
+                    </div>
                     <form action = "updatecomment.php" method = "post" id="ccForm" >
                         COMMENT CHANGE:<br>
                         <input type="text" name = "commentchange" id="idComment" placeholder="Enter Comment Change"> <br>
