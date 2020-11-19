@@ -10,7 +10,7 @@
 <body>
     <div class="container">
         <div class="row">
-            <div class="col-sm-7">
+            <div class="col-sm-4">
                 <form action = "insert.php" method = "post" id="CommentForm" >
                     NAME:<br>
                     <input type="text" name = "name" id="idName" placeholder="Enter Name"> <br>
@@ -22,7 +22,7 @@
                 </form> 
                
             </div>
-            <div class="col-sm-5">
+            <div class="col-sm-8">
                 <?php
                 $conn = mysqli_init();
                 mysqli_real_connect($conn, 'polarisdatabase.mysql.database.azure.com', 'kk_plr7@polarisdatabase', 'Neuatin2544', 'ITFLab', 3306);
