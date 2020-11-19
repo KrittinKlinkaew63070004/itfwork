@@ -21,6 +21,11 @@
                         <input type="text" name = "link" id="idLink" placeholder="Enter Link"> <br><br>
                         <input type="submit" id="commentBtn">
                     </form> 
+                    <form action = "delete.php" method = "post" id="DeleteForm" >
+                        ROW THAT YOU WANT TO DELETE:<br>
+                        <input type="text" name = "del" id="iddel" placeholder="Enter ROW"> <br>
+                        <input type="submit" id="commentBtndel">
+                    </form> 
                 
                 </div>
                 <div class="col-sm-5">
