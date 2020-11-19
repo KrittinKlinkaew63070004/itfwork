@@ -12,7 +12,7 @@ $name = $_POST['namechange'];
 $id = $_POST['delnc'];
 
 
-$sql = "UPDATE guestbook SET name=$name WHERE id=$id";
+$sql = "UPDATE guestbook SET name='$name' WHERE id=$id";
 
 
 if (mysqli_query($conn, $sql)) {
