@@ -11,7 +11,7 @@
     <div class="container">
         <div class="card">
             <div class="row">
-                <div class="col-sm-3">
+                <div class="col-sm-3" >
                     <form action = "insert.php" method = "post" id="CommentForm" >
                         NAME:<br>
                         <input type="text" name = "name" id="idName" placeholder="Enter Name"> <br>
@@ -21,9 +21,16 @@
                         <input type="text" name = "link" id="idLink" placeholder="Enter Link"> <br><br>
                         <input type="submit" id="commentBtn">
                     </form> 
-                    <form action = "delete.php" method = "post" id="DeleteForm" >
-                        ROW THAT YOU WANT TO DELETE:<br>
-                        <input type="text" name = "del" id="iddel" placeholder="Enter ROW"> <br>
+
+                
+                </div>
+                <div class="col-sm-3" >
+
+                    <form action = "updatename.php" method = "post" id="DeleteForm" >
+                        NAME CHANGE:<br>
+                        <input type="text" name = "namechange" id="idName" placeholder="Enter Name Change"> <br>
+                        ROW THAT YOU WANT TO CHANGE:<br>
+                        <input type="text" name = "delnc" id="idnc" placeholder="Enter ROW"> <br>
                         <input type="submit" id="commentBtndel">
                     </form> 
                 
