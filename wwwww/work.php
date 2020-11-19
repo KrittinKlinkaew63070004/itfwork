@@ -22,10 +22,14 @@
                         <input type="submit" id="commentBtn">
                     </form> 
 
+                    <form action = "delete.php" method = "post" id="DeleteForm" >
+                        ROW THAT YOU WANT TO DELETE:<br>
+                        <input type="text" name = "del" id="iddel" placeholder="Enter ROW"> <br>
+                        <input type="submit" id="commentBtndel">
+                    </form> 
                 
                 </div>
                 <div class="col-sm-3" >
-
                     <form action = "updatename.php" method = "post" id="DeleteForm" >
                         NAME CHANGE:<br>
                         <input type="text" name = "namechange" id="idName" placeholder="Enter Name Change"> <br>
@@ -33,7 +37,6 @@
                         <input type="text" name = "delnc" id="idnc" placeholder="Enter ROW"> <br>
                         <input type="submit" id="commentBtndel">
                     </form> 
-                
                 </div>
                 <div class="col-sm-5">
                     <?php
