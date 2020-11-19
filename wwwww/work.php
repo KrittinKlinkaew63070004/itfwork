@@ -9,21 +9,22 @@
 </head>
 <body>
     <div class="container">
-        <div class="card"
-            <div class="row">>
-                <div class="col-sm-4">
-                    <form action = "insert.php" method = "post" id="CommentForm" >
-                        NAME:<br>
-                        <input type="text" name = "name" id="idName" placeholder="Enter Name"> <br>
-                        COMMENT:<br>
-                        <textarea rows="10" cols="20" name = "comment" id="idComment" placeholder="Enter Comment"></textarea><br>  
-                        LINK:<br>
-                        <input type="text" name = "link" id="idLink" placeholder="Enter Link"> <br><br>
-                        <input type="submit" id="commentBtn">
-                    </form> 
-                
+        <div class="card">
+            <div class="row">
+                <div class="col-sm-2">
+                    <div class="card">
+                        <form action = "insert.php" method = "post" id="CommentForm" >
+                            NAME:<br>
+                            <input type="text" name = "name" id="idName" placeholder="Enter Name"> <br>
+                            COMMENT:<br>
+                            <textarea rows="10" cols="20" name = "comment" id="idComment" placeholder="Enter Comment"></textarea><br>  
+                            LINK:<br>
+                            <input type="text" name = "link" id="idLink" placeholder="Enter Link"> <br><br>
+                            <input type="submit" id="commentBtn">
+                        </form> 
+                    </div>
                 </div>
-                <div class="col-sm-8">
+                <div class="col-sm-6">
                     <?php
                     $conn = mysqli_init();
                     mysqli_real_connect($conn, 'polarisdatabase.mysql.database.azure.com', 'kk_plr7@polarisdatabase', 'Neuatin2544', 'ITFLab', 3306);
@@ -33,11 +34,11 @@
                     }
                     $res = mysqli_query($conn, 'SELECT * FROM guestbook');
                     ?>
-                    <table class="table-info" width="1000" border="2">
+                    <table class="table-info" width="500" border="2">
                         <tr>
-                            <th width="200"> <div align="center">Name</div></th>
-                            <th width="500"> <div align="center">Comment </div></th>
-                            <th width="300"> <div align="center">Link </div></th>
+                            <th width="100"> <div align="center">Name</div></th>
+                            <th width="200"> <div align="center">Comment </div></th>
+                            <th width="100"> <div align="center">Link </div></th>
                         </tr>
                     <?php
                     while($Result = mysqli_fetch_array($res))
@@ -57,7 +58,6 @@
                     ?>
                     
                 </div>
-                
             </div> <!-- Close Row 2 -->
         </div>
     </div> <!-- Close container -->
