@@ -39,20 +39,24 @@
                             <input type="submit" id="commentBtnnc">
                         </form>
                     </div>
-                    <form action = "updatecomment.php" method = "post" id="ccForm" >
-                        COMMENT CHANGE:<br>
-                        <input type="text" name = "commentchange" id="idComment" placeholder="Enter Comment Change"> <br>
-                        ROW THAT YOU WANT TO CHANGE:<br>
-                        <input type="text" name = "delcc" id="idnc" placeholder="Enter ID"> <br>
-                        <input type="submit" id="commentBtncc">
-                    </form> 
-                    <form action = "updatelink.php" method = "post" id="lcForm" >
-                        LINK CHANGE:<br>
-                        <input type="text" name = "linkchange" id="idlink" placeholder="Enter Link Change"> <br>
-                        ROW THAT YOU WANT TO CHANGE:<br>
-                        <input type="text" name = "dellc" id="idlc" placeholder="Enter ID"> <br>
-                        <input type="submit" id="commentBtncc">
-                    </form> 
+                    <div class="card">
+                        <form action = "updatecomment.php" method = "post" id="ccForm" >
+                            COMMENT CHANGE:<br>
+                            <input type="text" name = "commentchange" id="idComment" placeholder="Enter Comment Change"> <br>
+                            ROW THAT YOU WANT TO CHANGE:<br>
+                            <input type="text" name = "delcc" id="idnc" placeholder="Enter ID"> <br>
+                            <input type="submit" id="commentBtncc">
+                        </form> 
+                    </div>
+                    <div class="card">
+                        <form action = "updatelink.php" method = "post" id="lcForm" >
+                            LINK CHANGE:<br>
+                            <input type="text" name = "linkchange" id="idlink" placeholder="Enter Link Change"> <br>
+                            ROW THAT YOU WANT TO CHANGE:<br>
+                            <input type="text" name = "dellc" id="idlc" placeholder="Enter ID"> <br>
+                            <input type="submit" id="commentBtncc">
+                        </form> 
+                    </div>
                 </div>
                 <div class="col-sm-5">
                     <?php
