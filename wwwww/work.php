@@ -12,7 +12,7 @@
         <div class="card bg-dark">
             <div class="row">
                     <img src="img/mamamoo/banner3.jpg" class="img-fluid rounded"/>
-                    <div class="card bd-dark text-white">
+                    <div class="card bg-dark text-white">
                         <h1>INFORMATION TECHNOLOGY FUNDAMENTAL</h1>
                     </div>
             </div>
