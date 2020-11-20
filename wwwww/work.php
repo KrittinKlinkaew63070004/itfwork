@@ -11,6 +11,9 @@
     <div class="container">
         <div class="card">
             <div class="row">
+            <img src="img/mamamoo/mamamootravel.jpg" class="img-fluid rounded" width=600/>
+            </div>
+            <div class="row">
                 <div class="col-sm-3" >
                     <div class="card">
                         <form action = "insert.php" method = "post" id="CommentForm" >
