@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="container">
-        <div class="card">
+        <div class="card bg-dark">
             <div class="row">
             <img src="img/mamamoo/banner3.jpg" class="img-fluid rounded"/>
             <h1>INFORMATION TECHNOLOGY FUNDAMENTAL</h1>
@@ -27,7 +27,7 @@
                             <input type="submit" id="commentBtn">
                         </form> 
                     </div>
-                    <div class="card">
+                    <div class="card bg-light">
                         <form action = "delete.php" method = "post" id="DeleteForm" >
                             ROW THAT YOU WANT TO DELETE:<br>
                             <input type="text" name = "del" id="iddel" placeholder="Enter ID"> <br>
@@ -37,7 +37,7 @@
                 
                 </div>
                 <div class="col-sm-3" >
-                    <div class="card">
+                    <div class="card bg-secondary text-white">
                         <form action = "updatename.php" method = "post" id="ncForm" >
                             NAME CHANGE:<br>
                             <input type="text" name = "namechange" id="idName" placeholder="Enter Name Change"> <br>
@@ -46,7 +46,7 @@
                             <input type="submit" id="commentBtnnc">
                         </form>
                     </div>
-                    <div class="card">
+                    <div class="card bg-light">
                         <form action = "updatecomment.php" method = "post" id="ccForm" >
                             COMMENT CHANGE:<br>
                             <input type="text" name = "commentchange" id="idComment" placeholder="Enter Comment Change"> <br>
@@ -55,7 +55,7 @@
                             <input type="submit" id="commentBtncc">
                         </form> 
                     </div>
-                    <div class="card">
+                    <div class="card bg-secondary text-white">
                         <form action = "updatelink.php" method = "post" id="lcForm" >
                             LINK CHANGE:<br>
                             <input type="text" name = "linkchange" id="idlink" placeholder="Enter Link Change"> <br>
@@ -75,7 +75,7 @@
                     }
                     $res = mysqli_query($conn, 'SELECT * FROM guestbook');
                     ?>
-                    <table class="table-info" width="500" border="2">
+                    <table class="table-light" width="500" border="2">
                         <tr>
                             <th width="100"> <div align="center">Name</div></th>
                             <th width="200"> <div align="center">Comment </div></th>
