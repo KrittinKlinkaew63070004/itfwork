@@ -13,7 +13,6 @@
             <div class="row">
                 <div class="card-bg-light">
                     <img src="img/mamamoo/banner3.jpg" class="img-fluid rounded"/>
-                    <h1>INFORMATION TECHNOLOGY FUNDAMENTAL</h1>
                 </div>
             </div>
             <div class="row">
