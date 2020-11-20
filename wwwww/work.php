@@ -11,11 +11,13 @@
     <div class="container">
         <div class="card">
             <div class="row">
-            <img src="img/mamamoo/mamamootravel.jpg" class="img-fluid rounded" width=600/>
+            <img src="img/mamamoo/banner2.jpg" class="img-fluid rounded"/>
+            <h1>INFORMATION TECHNOLOGY FUNDAMENTAL</h1>
             </div>
             <div class="row">
                 <div class="col-sm-3" >
-                    <div class="card">
+                    <div class="card" >
+                        background-color: ##00FFFF;
                         <form action = "insert.php" method = "post" id="CommentForm" >
                             NAME:<br>
                             <input type="text" name = "name" id="idName" placeholder="Enter Name"> <br>
