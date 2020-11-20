@@ -11,8 +11,8 @@
     <div class="container">
         <div class="card bg-dark">
             <div class="row">
-            <img src="img/mamamoo/banner3.jpg" class="img-fluid rounded"/>
-            <h1>INFORMATION TECHNOLOGY FUNDAMENTAL</h1>
+                <img src="img/mamamoo/banner3.jpg" class="img-fluid rounded"/>
+                <h1 text='white'>INFORMATION TECHNOLOGY FUNDAMENTAL</h1>
             </div>
             <div class="row">
                 <div class="col-sm-3" >
